@@ -39,7 +39,7 @@
   <meta name="twitter:image" content="https://terminatorx14.github.io/ac-service-karachi-coolfixpro/12121.png" />
 
   <!-- ═══ FAVICON ═══ -->
-  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="icon" type="image/png" href="favicon2.png" />
 
   <!-- ═══ SCHEMA: LocalBusiness (MOST IMPORTANT FOR LOCAL SEO) ═══ -->
   <script type="application/ld+json">
@@ -2379,6 +2379,55 @@
     .wa-share-btn:hover {
       transform: translateY(-2px);
       box-shadow: 0 6px 18px rgba(37, 211, 102, 0.4);
+    }
+
+    /* ═══ MOBILE RESPONSIVE FIXES ═══ */
+    @media (max-width: 768px) {
+      .services-grid, 
+      .why-grid, 
+      .pricing-grid, 
+      .f-grid, 
+      .team-grid, 
+      .amc-grid, 
+      .testi-grid, 
+      .contact-grid, 
+      .stats-grid, 
+      .calc-grid,
+      .pkg-grid {
+        grid-template-columns: 1fr !important;
+      }
+      
+      .nav-inner {
+        height: 70px;
+      }
+      
+      .logo-box img {
+        height: 55px;
+        max-width: 65vw;
+      }
+      
+      #mobile-menu {
+        inset: 70px 0 0 0;
+      }
+      
+      #hero {
+        padding: 100px 0 52px;
+        min-height: auto;
+      }
+      
+      .hero-h1 {
+        font-size: 2.5rem !important;
+        line-height: 1.1 !important;
+      }
+      
+      .price-card {
+        margin-bottom: 12px;
+      }
+
+      .stat-item {
+        border-right: none !important;
+        border-bottom: 1px solid rgba(255,255,255,0.08) !important;
+      }
     }
   </style>
 
